@@ -9,50 +9,52 @@
 .footer__column {
     flex: 1;
     padding: 10px;
+
+    &__logo {
+        font-family: Orbitron;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    &__text,
+    &__list {
+        list-style: none;
+        padding: 0;
+        color: #D9DBE1;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+
+    }
+
+    &__span {
+        font-family: MuseoModerno;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2EC5CE;
+    }
 }
 
-.footer__column__logo {
-    font-family: Orbitron;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
 
-.footer__column__title {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 31px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.footer__column__text,
-.footer__column__list {
-    list-style: none;
-    padding: 0;
-    color: #D9DBE1;
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-
-}
-
-.footer__column__span {
-    font-family: MuseoModerno;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #2EC5CE;
-}
 
 .copyright {
     display: flex;
@@ -76,14 +78,14 @@
     padding: 0;
     margin: 0;
     display: flex;
-}
 
-.copyright__list__link {
-    padding: 0 10px;
-    border-right: 1px solid #D9DBE1;
-    color: #D9DBE1;
-    text-decoration: none;
-    // &:last-child {
-    //             border-right: 0;
-    // }
+    &__link {
+        padding: 0 10px;
+        border-right: 1px solid #D9DBE1;
+        color: #D9DBE1;
+        text-decoration: none;
+        // &:last-child {
+        //             border-right: 0;
+        // }
+    }
 }

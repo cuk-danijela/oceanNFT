@@ -2,6 +2,56 @@ body {
   background: #20083B 75%;
 }
 
+.top-sellers__title {
+  font-family: Orbitron;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.top-sellers__span {
+  color: #ff56f6;
+}
+.top-sellers__text {
+  width: 506px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.top-sellers__section-box {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.top-sellers__btn {
+  width: 234.84px;
+  height: 50.85px;
+  display: block;
+  margin: 0 auto;
+  font-family: Rajdhani;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: 2.41px solid transparent;
+  border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+  border-image-slice: 1;
+  border-image-width: 2.41px;
+  border-image-outset: 0;
+  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
+}
+
 .subscribe {
   display: flex;
   align-items: center;
@@ -18,7 +68,6 @@ body {
   flex: 2;
   padding-left: 60px;
 }
-
 .subscribe__content__title {
   font-family: Orbitron;
   font-size: 40px;
@@ -28,7 +77,6 @@ body {
   text-align: left;
   color: #FFFFFF;
 }
-
 .subscribe__content__text {
   font-family: Inter;
   font-size: 20px;
@@ -39,7 +87,6 @@ body {
   color: #FFFFFF;
   word-wrap: break-word;
 }
-
 .subscribe__content__input {
   color: #474A57;
   font-family: Inter;
@@ -51,7 +98,6 @@ body {
   padding: 16px 18px 16px 18px;
   border-radius: 5.53px 0 0 5.53px;
 }
-
 .subscribe__content__btn {
   width: 143.71px;
   height: 48.64px;
@@ -86,7 +132,6 @@ body {
   flex: 1;
   padding: 10px;
 }
-
 .footer__column__logo {
   font-family: Orbitron;
   font-size: 20px;
@@ -96,7 +141,6 @@ body {
   text-align: left;
   color: #FFFFFF;
 }
-
 .footer__column__title {
   font-family: Inter;
   font-size: 20px;
@@ -106,9 +150,7 @@ body {
   text-align: left;
   color: #FFFFFF;
 }
-
-.footer__column__text,
-.footer__column__list {
+.footer__column__text, .footer__column__list {
   list-style: none;
   padding: 0;
   color: #D9DBE1;
@@ -118,7 +160,6 @@ body {
   line-height: 27px;
   letter-spacing: 0em;
 }
-
 .footer__column__span {
   font-family: MuseoModerno;
   font-size: 22px;
@@ -152,7 +193,6 @@ body {
   margin: 0;
   display: flex;
 }
-
 .copyright__list__link {
   padding: 0 10px;
   border-right: 1px solid #D9DBE1;
