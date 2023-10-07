@@ -1,9 +1,11 @@
-
+@import "partials/buttons";
 
 body {
     background: #20083B 75%;
 }
 
+
+@import 'collections';
 @import 'top-sellers';
 @import 'subscribe';
 @import 'footer';

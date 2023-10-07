@@ -11,6 +11,14 @@
     padding: 10px;
 
     &__logo {
+            width: 17px;
+            height: 27px;
+            mask-mode: luminance;
+            fill: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px rgba(255, 86, 246, 0.51);
+        }
+
+    &__logo-text {
         font-family: Orbitron;
         font-size: 20px;
         font-weight: 700;
@@ -84,8 +92,11 @@
         border-right: 1px solid #D9DBE1;
         color: #D9DBE1;
         text-decoration: none;
-        // &:last-child {
-        //             border-right: 0;
-        // }
+        
     }
+
+        li:last-child a {
+            border-right: 0;
+        }
 }
+

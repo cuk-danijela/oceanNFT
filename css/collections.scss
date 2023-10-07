@@ -1,0 +1,86 @@
+.collections {
+
+    &__div {
+        display: flex;
+        align-items: center;
+
+        &__title {
+            font-family: Orbitron;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #ffffff;
+            flex: 1;
+        }
+
+        &__view {
+            font-family: Orbitron;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #ffffff;
+
+        }
+
+    }
+
+    &__card-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        color: #FFFFFF;
+        width: 437.76px;
+        height: 564.89px;
+        border: 2.88px solid;
+
+    }
+
+    &__card-background {
+        width: 431.13px;
+        height: 205.62px;
+        background: url('../assets/images/unsplash_NTYYL9Eb9y8.png');
+        background-repeat: no-repeat;
+    }
+
+    &__card-content {
+        position: relative;
+    }
+
+    &__card-content__img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+
+    &__card-content__title {
+        font-family: Rajdhani;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 46px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    &__card-content__user {
+        font-family: Rajdhani;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #FFB1EE;
+        display: inline;
+    }
+
+
+
+    &__card-content__btn {
+        @include gradient-btn;
+    }
+}

@@ -1,0 +1,27 @@
+
+@mixin gradient-btn {
+    width: 234.84px;
+    height: 50.85px;
+    display: block;
+    margin: 0 auto;
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    border: 2.41px solid transparent;
+    border-image-source: linear-gradient(272.52deg,
+            #ffa6fa 47.49%,
+            #3c79d5 98.81%);
+    border-image-slice: 1;
+    border-image-width: 2.41px;
+    border-image-outset: 0;
+    background: linear-gradient(92.23deg,
+            #ff56f6 21.43%,
+            #b936ee 50.63%,
+            #3bace2 100%,
+            #406aff 117.04%);
+    box-shadow: 0px 5px 117px 0px #ff56f682;
+}
