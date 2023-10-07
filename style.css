@@ -2,6 +2,108 @@ body {
   background: #20083B 75%;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+}
+.main__content__title {
+  font-family: League Spartan, sans-serif;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 848px;
+  height: 156px;
+}
+.main__content__title-span {
+  background: linear-gradient(272.38deg, #43a5e3 46.06%, #ff56f6 81.53%), linear-gradient(0deg, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.main__content__text {
+  font-family: Rajdhani, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 657.75px;
+}
+.main__content__btn {
+  width: 234.84px;
+  height: 50.85px;
+  display: block;
+  margin: 0 auto;
+  font-family: Rajdhani, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: 2.41px solid transparent;
+  border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+  border-image-slice: 1;
+  border-image-width: 2.41px;
+  border-image-outset: 0;
+  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
+}
+.main__content__heading {
+  font-family: Orbitron, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+}
+.main__content__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.main__content__list li {
+  font-family: Alethia Next;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.2210918516px;
+  text-align: left;
+  color: #FFFFFF;
+  padding: 0 30px;
+  border-right: 1.11px solid rgba(255, 255, 255, 0.2588235294);
+}
+.main__content__list li:first-child {
+  padding-left: 0;
+}
+.main__content__list li:last-child {
+  border-right: 0;
+}
+.main__content__list-span {
+  display: block;
+  font-family: Aldrich, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 0.2210918516px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
 .main__content__logo__section {
   display: flex;
   justify-content: space-between;
