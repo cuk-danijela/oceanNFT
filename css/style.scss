@@ -1,10 +1,12 @@
 @import "partials/buttons";
+@import "partials/font";
+
 
 body {
     background: #20083B 75%;
 }
 
-
+@import 'main';
 @import 'collections';
 @import 'top-sellers';
 @import 'subscribe';

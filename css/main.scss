@@ -1,0 +1,21 @@
+.main__content__logo__section {
+  display: flex;
+  justify-content: space-between;
+
+  img:first-child {
+    width: 265.31px;
+    height: 53.06px;
+  }
+  img:nth-child(2) {
+    width: 170.24px;
+    height: 53.06px;
+  }
+  img:nth-child(3) {
+    width: 349.33px;
+    height: 53.06px;
+  }
+  img:last-child {
+    width: 196.4px;
+    height: 31.37px;
+  }
+}

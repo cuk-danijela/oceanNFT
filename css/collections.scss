@@ -5,7 +5,7 @@
         align-items: center;
 
         &__title {
-            font-family: Orbitron;
+            font-family: $font-Orbitron;
             font-size: 26px;
             font-weight: 700;
             line-height: 33px;
@@ -16,7 +16,7 @@
         }
 
         &__view {
-            font-family: Orbitron;
+            font-family: $font-Orbitron;
             font-size: 26px;
             font-weight: 700;
             line-height: 33px;
@@ -59,7 +59,7 @@
     }
 
     &__card-content__title {
-        font-family: Rajdhani;
+        font-family: $font-Rajdhani;
         font-size: 24px;
         font-weight: 500;
         line-height: 46px;
@@ -68,7 +68,7 @@
     }
 
     &__card-content__user {
-        font-family: Rajdhani;
+        font-family: $font-Rajdhani;
         font-size: 20px;
         font-weight: 400;
         line-height: 46px;

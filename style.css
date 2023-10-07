@@ -2,12 +2,33 @@ body {
   background: #20083B 75%;
 }
 
+.main__content__logo__section {
+  display: flex;
+  justify-content: space-between;
+}
+.main__content__logo__section img:first-child {
+  width: 265.31px;
+  height: 53.06px;
+}
+.main__content__logo__section img:nth-child(2) {
+  width: 170.24px;
+  height: 53.06px;
+}
+.main__content__logo__section img:nth-child(3) {
+  width: 349.33px;
+  height: 53.06px;
+}
+.main__content__logo__section img:last-child {
+  width: 196.4px;
+  height: 31.37px;
+}
+
 .collections__div {
   display: flex;
   align-items: center;
 }
 .collections__div__title {
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -17,7 +38,7 @@ body {
   flex: 1;
 }
 .collections__div__view {
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -50,7 +71,7 @@ body {
   transform: translate(-50%, -80%);
 }
 .collections__card-content__title {
-  font-family: Rajdhani;
+  font-family: Rajdhani, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 46px;
@@ -58,7 +79,7 @@ body {
   text-align: center;
 }
 .collections__card-content__user {
-  font-family: Rajdhani;
+  font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 46px;
@@ -72,7 +93,7 @@ body {
   height: 50.85px;
   display: block;
   margin: 0 auto;
-  font-family: Rajdhani;
+  font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
@@ -89,7 +110,7 @@ body {
 }
 
 .top-sellers__title {
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
@@ -102,7 +123,7 @@ body {
 }
 .top-sellers__text {
   width: 506px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -122,7 +143,7 @@ body {
   height: 50.85px;
   display: block;
   margin: 0 auto;
-  font-family: Rajdhani;
+  font-family: Rajdhani, sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
@@ -142,40 +163,38 @@ body {
   display: flex;
   align-items: center;
 }
-
 .subscribe__image {
   flex: 1;
   width: 698.65px;
   height: 289.63px;
   border-radius: 4.42px;
 }
-
 .subscribe__content {
   flex: 2;
   padding-left: 60px;
 }
 .subscribe__content__title {
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .subscribe__content__text {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   word-wrap: break-word;
 }
 .subscribe__content__input {
-  color: #474A57;
-  font-family: Inter;
+  color: #474a57;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -187,21 +206,21 @@ body {
 .subscribe__content__btn {
   width: 143.71px;
   height: 48.64px;
+  border-border: 2.41px solid transparent;
   border-radius: 0 5.53px 5.53px 0;
-  border: 2.41px solid transparent;
-  border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%);
+  border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   border-image-slice: 1;
   border-image-width: 2.41px;
   border-image-outset: 0;
   cursor: pointer;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0;
   text-align: center;
-  color: #FFFFFF;
-  background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%), linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%);
+  color: #ffffff;
+  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%), linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   background-origin: border-box;
   box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
 }
@@ -226,7 +245,7 @@ body {
   box-shadow: 0px 4.421836853px 107.2295455933px 0px rgba(255, 86, 246, 0.51);
 }
 .footer__column__logo-text {
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
@@ -235,7 +254,7 @@ body {
   color: #FFFFFF;
 }
 .footer__column__title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 31px;
@@ -247,14 +266,14 @@ body {
   list-style: none;
   padding: 0;
   color: #D9DBE1;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
 }
 .footer__column__span {
-  font-family: MuseoModerno;
+  font-family: MuseoModerno, cursive;
   font-size: 22px;
   font-weight: 400;
   line-height: 27px;
@@ -268,7 +287,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #D9DBE1;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
