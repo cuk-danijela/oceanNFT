@@ -44,17 +44,18 @@
     &__card-background {
         width: 431.13px;
         height: 205.62px;
+        position: relative;
         background: url('../assets/images/unsplash_NTYYL9Eb9y8.png');
         background-repeat: no-repeat;
     }
 
     &__card-content {
-        position: relative;
+        padding: 40px 0;
+        text-align: center;
     }
 
     &__card-content__img {
         position: absolute;
-        left: 50%;
         transform: translate(-50%, -80%);
     }
 
@@ -65,6 +66,7 @@
         line-height: 46px;
         letter-spacing: 0px;
         text-align: center;
+        margin-bottom: 0;
     }
 
     &__card-content__user {
@@ -78,8 +80,30 @@
         display: inline;
     }
 
+&__card-content__list {
+    list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+}
 
-
+&__card-content__list__span {
+    font-family: $font-Rajdhani;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0px;
+        text-align: center;
+        display: block;
+}
+&__card-content__list li{
+    font-family: $font-Rajdhani;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+}
     &__card-content__btn {
         @include gradient-btn;
     }

@@ -1,5 +1,6 @@
 body {
   background: #20083B 75%;
+  padding: 42.01px 103px;
 }
 
 .header__nav {
@@ -8,6 +9,7 @@ body {
   justify-content: space-between;
 }
 .header__nav__logo {
+  display: flex;
   font-family: Orbitron, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -15,6 +17,10 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+}
+.header__nav__logo img {
+  width: 16.58px;
+  height: 26.81px;
 }
 .header__nav__logo-text {
   color: rgba(255, 255, 255, 0.6);
@@ -146,6 +152,7 @@ body {
 .logo-section {
   display: flex;
   justify-content: space-between;
+  padding: 100px 0;
 }
 .logo-section img:first-child {
   width: 265.31px;
@@ -200,15 +207,16 @@ body {
 .collections__card-background {
   width: 431.13px;
   height: 205.62px;
+  position: relative;
   background: url("../assets/images/unsplash_NTYYL9Eb9y8.png");
   background-repeat: no-repeat;
 }
 .collections__card-content {
-  position: relative;
+  padding: 40px 0;
+  text-align: center;
 }
 .collections__card-content__img {
   position: absolute;
-  left: 50%;
   transform: translate(-50%, -80%);
 }
 .collections__card-content__title {
@@ -218,6 +226,7 @@ body {
   line-height: 46px;
   letter-spacing: 0px;
   text-align: center;
+  margin-bottom: 0;
 }
 .collections__card-content__user {
   font-family: Rajdhani, sans-serif;
@@ -229,57 +238,30 @@ body {
   color: #FFB1EE;
   display: inline;
 }
-.collections__card-content__btn {
-  width: 234.84px;
-  height: 50.85px;
+.collections__card-content__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.collections__card-content__list__span {
+  font-family: Rajdhani, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
   display: block;
-  margin: 0 auto;
+}
+.collections__card-content__list li {
   font-family: Rajdhani, sans-serif;
   font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0em;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
   text-align: center;
-  color: #ffffff;
-  border: 2.41px solid transparent;
-  border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
-  border-image-slice: 1;
-  border-image-width: 2.41px;
-  border-image-outset: 0;
-  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
-  box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
 }
-
-.top-sellers__title {
-  font-family: Orbitron, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #ffffff;
-}
-.top-sellers__span {
-  color: #ff56f6;
-}
-.top-sellers__text {
-  width: 506px;
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #ffffff;
-  margin: 0 auto;
-}
-.top-sellers__section-box {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-  color: #ffffff;
-}
-.top-sellers__btn {
+.collections__card-content__btn {
   width: 234.84px;
   height: 50.85px;
   display: block;
@@ -303,6 +285,7 @@ body {
 .subscribe {
   display: flex;
   align-items: center;
+  padding: 100px 0;
 }
 .subscribe__image {
   flex: 1;
@@ -373,7 +356,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-left: 0;
   border-right: 0;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .footer__column {

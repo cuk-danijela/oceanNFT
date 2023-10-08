@@ -6,6 +6,7 @@
   }
 
   &__nav__logo {
+    display: flex;
     font-family: $font-Orbitron;
     font-size: 20px;
     font-weight: 700;
@@ -14,6 +15,11 @@
     text-align: left;
     color: #ffffff;
   }
+
+     &__nav__logo img {
+      width: 16.58px;
+      height: 26.81px;
+     }
 
   &__nav__logo-text {
     color: #ffffff99;
@@ -151,6 +157,7 @@
 .logo-section {
   display: flex;
   justify-content: space-between;
+padding: 100px 0;
 
   img:first-child {
     width: 265.31px;
