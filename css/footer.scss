@@ -1,29 +1,31 @@
 .footer {
     display: flex;
     flex-wrap: wrap;
+    gap: 17.69px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: 0;
     border-right: 0;
+    padding: 80px 0;
 }
 
 .footer__column {
     flex: 1;
-    padding: 10px;
 
     &__logo {
-            width: 17px;
-            height: 27px;
-            mask-mode: luminance;
-            fill: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        width: 17px;
+        height: 27px;
+        display: flex;
+        mask-mode: luminance;
+        fill: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
         box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px rgba(255, 86, 246, 0.51);
-        }
+    }
 
     &__logo-text {
         font-family: $font-Orbitron;
         font-size: 20px;
         font-weight: 700;
         line-height: 25px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: left;
         color: #FFFFFF;
     }
@@ -33,9 +35,16 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 31px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: left;
         color: #FFFFFF;
+        margin: 0;
+    }
+
+   
+
+    &__list li {
+        margin: 13.27px 0;
     }
 
     &__text,
@@ -47,8 +56,13 @@
         font-size: 15px;
         font-weight: 400;
         line-height: 27px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
 
+    }
+
+    &__social-icons {
+        display: flex;
+        gap: 17.69px;
     }
 
     &__span {
@@ -56,9 +70,10 @@
         font-size: 22px;
         font-weight: 400;
         line-height: 27px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: left;
         color: #2EC5CE;
+        margin-left: 5px;
     }
 }
 
@@ -73,7 +88,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
 }
 
@@ -92,11 +107,10 @@
         border-right: 1px solid #D9DBE1;
         color: #D9DBE1;
         text-decoration: none;
-        
+
     }
 
-        li:last-child a {
-            border-right: 0;
-        }
+    li:last-child a {
+        border-right: 0;
+    }
 }
-

@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;500&family=League+Spartan:wght@600&family=MuseoModerno&family=Orbitron:wght@700&family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
@@ -19,60 +17,60 @@
     <title>OceanNFT</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="header__nav">
-        <div class="logo">
+        <div class="header__nav__logo">
           <img src="assets/icons/Vector.svg" alt="Vector logo" />
-          <span class="footer__column__logo">OceanNFT</span>
+          <span class="header__nav__logo-text">Ocean</span>NFT
         </div>
-        <ul>
-          <li>Market</li>
-          <li>Features</li>
-          <li>Community</li>
+        <ul class="header__nav__list">
+          <li class="header__nav__item">Market</li>
+          <li class="header__nav__item">Features</li>
+          <li class="header__nav__item">Community</li>
         </ul>
-        <div class="nav__icons">
+        <div class="header__nav__icons">
           <img src="assets/icons/cart.svg" alt="Shopping cart icon" />
           <img src="assets/icons/user.svg" alt="User icon" />
         </div>
       </nav>
+
+      <div class="header__main__content">
+        <div class="header__main__content__left-div">
+          <h1 class="header__main__content__left-div__title">
+            Discover, collect, and <br />
+            sell <span class="main__content__left-div__title-span">Timeless</span> NFTs
+          </h1>
+          <p class="header__main__content__left-div__text">
+            The world’s first and largest digital marketplace for crypto
+            collectibles and non- fungible tokens (NFTs).
+          </p>
+          <button type="submit" class="header__main__content__left-div__btn">
+            Explore
+            <img src="assets/icons/arrow-right.svg" alt="Arrow rigth icon" />
+          </button>
+          <p class="header__main__content__left-div__paragraph">Create NFT’s</p>
+          <ul class="header__main__content__left-div__list">
+            <li><span class="header__main__content__left-div__list-span">35m+</span> Artwork</li>
+            <li><span class="header__main__content__left-div__list-span">18m+</span> Auctions</li>
+            <li><span class="header__main__content__left-div__list-span">500k+</span> Artists</li>
+          </ul>
+        </div>
+
+        <div class="header__main__content__right-div">
+          <img src="assets/images/image 62.png" alt="Main image" />
+        </div>
+      </div>
     </header>
-    <div class="main__content">
-      <div class="main__content__left-div">
-        <h1 class="main__content__title">
-          Discover, collect, and sell
-          <span class="main__content__title-span">Timeless</span> NFTs
-        </h1>
-        <p class="main__content__text">
-          The world’s first and largest digital marketplace for crypto
-          collectibles and non- fungible tokens (NFTs).
-        </p>
-        <button type="submit" class="main__content__btn">
-          Explore
-          <img src="assets/icons/arrow-right.svg" alt="Arrow rigth icon" />
-        </button>
-        <p class="main__content__heading">Create NFT’s</p>
-        <ul class="main__content__list">
-          <li><span class="main__content__list-span">35m+</span> Artwork</li>
-          <li><span class="main__content__list-span">18m+</span> Auctions</li>
-          <li><span class="main__content__list-span">500k+</span> Artists</li>
-        </ul>
-      </div>
 
-      <div class="main__content__right-div">
-        <img src="assets/images/image 62.png" alt="Main image" />
-      </div>
-      
-    </div>
-
-    <div class="main__content__logo__section">
-        <img src="assets/logo/Binance_logo logo.png" alt="Binance logo" />
-        <img src="assets/logo/Ethereum logo.png" alt="Ethereum logo" />
-        <img
-          src="assets/logo/Logo_of_Blockchain.io logo.png"
-          alt="Blockchain logo"
-        />
-        <img src="assets/logo/Group 25.png" alt="Bitmex logo" />
-      </div>
+    <article class="logo-section">
+      <img src="assets/logo/Binance_logo logo.png" alt="Binance logo" />
+      <img src="assets/logo/Ethereum logo.png" alt="Ethereum logo" />
+      <img
+        src="assets/logo/Logo_of_Blockchain.io logo.png"
+        alt="Blockchain logo"
+      />
+      <img src="assets/logo/Group 25.png" alt="Bitmex logo" />
+    </article>
 
     <section class="collections">
       <div class="collections__div">
@@ -204,9 +202,9 @@
           <input
             type="email"
             placeholder="Your work email address"
-            class="subscribe__content__input"
+            class="subscribe__content__form__input"
           />
-          <button type="submit" class="subscribe__content__btn">
+          <button type="submit" class="subscribe__content__form__btn">
             Subscribe
           </button>
         </form>
@@ -214,7 +212,7 @@
     </article>
     <footer class="footer">
       <div class="footer__column">
-        <div>
+        <div class="footer__column__logo">
           <img
             src="assets/icons/Vector.svg"
             alt="Vector logo"

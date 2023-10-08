@@ -4,14 +4,51 @@ body {
 
 .header__nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
+.header__nav__logo {
+  font-family: Orbitron, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.header__nav__logo-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+.header__nav__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 66.33px;
+  padding: 11.05px;
+}
+.header__nav__item {
+  font-family: Orbitron, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 11.05px;
+}
+.header__nav__icons {
+  display: flex;
+  align-items: center;
+}
+.header__nav__icons img {
+  margin: 20px;
+}
 
-.main__content {
+.header__main__content {
   display: flex;
   justify-content: space-between;
 }
-.main__content__title {
+.header__main__content__left-div__title {
   font-family: League Spartan, sans-serif;
   font-size: 66px;
   font-weight: 600;
@@ -22,13 +59,13 @@ body {
   width: 848px;
   height: 156px;
 }
-.main__content__title-span {
+.header__main__content__left-div__title-span {
   background: linear-gradient(272.38deg, #43a5e3 46.06%, #ff56f6 81.53%), linear-gradient(0deg, #ffffff, #ffffff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.main__content__text {
+.header__main__content__left-div__text {
   font-family: Rajdhani, sans-serif;
   font-size: 26px;
   font-weight: 400;
@@ -38,7 +75,7 @@ body {
   color: #ffffff;
   width: 657.75px;
 }
-.main__content__btn {
+.header__main__content__left-div__btn {
   width: 234.84px;
   height: 50.85px;
   display: block;
@@ -57,8 +94,9 @@ body {
   border-image-outset: 0;
   background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
   box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
+  display: inline-block;
 }
-.main__content__heading {
+.header__main__content__left-div__paragraph {
   font-family: Orbitron, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -70,13 +108,14 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   display: inline;
+  margin-left: 25px;
 }
-.main__content__list {
+.header__main__content__left-div__list {
   list-style: none;
   display: flex;
   padding: 0;
 }
-.main__content__list li {
+.header__main__content__left-div__list li {
   font-family: Alethia Next;
   font-size: 18px;
   font-weight: 400;
@@ -87,13 +126,13 @@ body {
   padding: 0 30px;
   border-right: 1.11px solid rgba(255, 255, 255, 0.2588235294);
 }
-.main__content__list li:first-child {
+.header__main__content__left-div__list li:first-child {
   padding-left: 0;
 }
-.main__content__list li:last-child {
+.header__main__content__left-div__list li:last-child {
   border-right: 0;
 }
-.main__content__list-span {
+.header__main__content__left-div__list-span {
   display: block;
   font-family: Aldrich, sans-serif;
   font-size: 40px;
@@ -104,23 +143,23 @@ body {
   color: #FFFFFF;
 }
 
-.main__content__logo__section {
+.logo-section {
   display: flex;
   justify-content: space-between;
 }
-.main__content__logo__section img:first-child {
+.logo-section img:first-child {
   width: 265.31px;
   height: 53.06px;
 }
-.main__content__logo__section img:nth-child(2) {
+.logo-section img:nth-child(2) {
   width: 170.24px;
   height: 53.06px;
 }
-.main__content__logo__section img:nth-child(3) {
+.logo-section img:nth-child(3) {
   width: 349.33px;
   height: 53.06px;
 }
-.main__content__logo__section img:last-child {
+.logo-section img:last-child {
   width: 196.4px;
   height: 31.37px;
 }
@@ -294,7 +333,7 @@ body {
   color: #ffffff;
   word-wrap: break-word;
 }
-.subscribe__content__input {
+.subscribe__content__form__input {
   color: #474a57;
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -302,13 +341,13 @@ body {
   line-height: 19px;
   letter-spacing: 0;
   text-align: left;
-  padding: 16px 18px 16px 18px;
+  padding: 15.48px 17.69px 15.48px 17.69px;
+  border: transparent;
   border-radius: 5.53px 0 0 5.53px;
 }
-.subscribe__content__btn {
+.subscribe__content__form__btn {
   width: 143.71px;
   height: 48.64px;
-  border-border: 2.41px solid transparent;
   border-radius: 0 5.53px 5.53px 0;
   border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   border-image-slice: 1;
@@ -330,18 +369,20 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
+  gap: 17.69px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-left: 0;
   border-right: 0;
+  padding: 80px 0;
 }
 
 .footer__column {
   flex: 1;
-  padding: 10px;
 }
 .footer__column__logo {
   width: 17px;
   height: 27px;
+  display: flex;
   mask-mode: luminance;
   fill: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   box-shadow: 0px 4.421836853px 107.2295455933px 0px rgba(255, 86, 246, 0.51);
@@ -351,7 +392,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
 }
@@ -360,9 +401,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 31px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
+  margin: 0;
+}
+.footer__column__list li {
+  margin: 13.27px 0;
 }
 .footer__column__text, .footer__column__list {
   list-style: none;
@@ -372,16 +417,21 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
+}
+.footer__column__social-icons {
+  display: flex;
+  gap: 17.69px;
 }
 .footer__column__span {
   font-family: MuseoModerno, cursive;
   font-size: 22px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #2EC5CE;
+  margin-left: 5px;
 }
 
 .copyright {
@@ -393,7 +443,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
