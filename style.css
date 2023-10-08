@@ -18,9 +18,10 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.header__nav__logo img {
+.header__nav__logo svg {
   width: 16.58px;
   height: 26.81px;
+  box-shadow: 0px 4.421836853px 107.2295455933px 0px rgba(255, 86, 246, 0.51);
 }
 .header__nav__logo-text {
   color: rgba(255, 255, 255, 0.6);
@@ -120,6 +121,7 @@ body {
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 50px 0;
 }
 .header__main__content__left-div__list li {
   font-family: Alethia Next;
@@ -200,9 +202,14 @@ body {
 }
 .collections__card {
   color: #FFFFFF;
-  width: 437.76px;
-  height: 564.89px;
-  border: 2.88px solid;
+  width: 433.76px;
+  height: 560.89px;
+  border-width: 2.88px;
+  border-style: solid;
+  border-image-source: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%);
+  border-image-slice: 1;
+  border-image-width: 2.88px;
+  border-image-outset: 0;
 }
 .collections__card-background {
   width: 431.13px;
@@ -210,10 +217,13 @@ body {
   position: relative;
   background: url("../assets/images/unsplash_NTYYL9Eb9y8.png");
   background-repeat: no-repeat;
+  background-position: center;
 }
 .collections__card-content {
-  padding: 40px 0;
+  padding-top: 43px;
+  padding-bottom: 28px;
   text-align: center;
+  background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%), linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
 }
 .collections__card-content__img {
   position: absolute;
@@ -243,6 +253,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-bottom: 30px;
 }
 .collections__card-content__list__span {
   font-family: Rajdhani, sans-serif;
@@ -359,6 +370,10 @@ body {
   padding: 100px 0;
 }
 
+.footer__column:first-child {
+  flex: 2;
+}
+
 .footer__column {
   flex: 1;
 }
@@ -366,8 +381,6 @@ body {
   width: 17px;
   height: 27px;
   display: flex;
-  mask-mode: luminance;
-  fill: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   box-shadow: 0px 4.421836853px 107.2295455933px 0px rgba(255, 86, 246, 0.51);
 }
 .footer__column__logo-text {
@@ -401,6 +414,7 @@ body {
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0;
+  margin: 30px 0;
 }
 .footer__column__social-icons {
   display: flex;

@@ -35,10 +35,14 @@
 
     &__card {
         color: #FFFFFF;
-        width: 437.76px;
-        height: 564.89px;
-        border: 2.88px solid;
-
+        width: 433.76px;
+        height: 560.89px;
+        border-width: 2.88px;
+        border-style: solid;
+        border-image-source: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%);
+        border-image-slice: 1;
+        border-image-width: 2.88px;
+        border-image-outset: 0;
     }
 
     &__card-background {
@@ -47,11 +51,15 @@
         position: relative;
         background: url('../assets/images/unsplash_NTYYL9Eb9y8.png');
         background-repeat: no-repeat;
+        background-position: center;
     }
 
     &__card-content {
-        padding: 40px 0;
+        padding-top: 43px;
+        padding-bottom: 28px;
         text-align: center;
+        background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
     }
 
     &__card-content__img {
@@ -80,30 +88,33 @@
         display: inline;
     }
 
-&__card-content__list {
-    list-style: none;
+    &__card-content__list {
+        list-style: none;
         display: flex;
         justify-content: space-around;
         padding: 0;
-}
+            margin-bottom: 30px;
+    }
 
-&__card-content__list__span {
-    font-family: $font-Rajdhani;
+    &__card-content__list__span {
+        font-family: $font-Rajdhani;
         font-size: 30px;
         font-weight: 600;
         line-height: 38px;
         letter-spacing: 0px;
         text-align: center;
         display: block;
-}
-&__card-content__list li{
-    font-family: $font-Rajdhani;
+    }
+
+    &__card-content__list li {
+        font-family: $font-Rajdhani;
         font-size: 20px;
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 0px;
         text-align: center;
-}
+    }
+
     &__card-content__btn {
         @include gradient-btn;
     }

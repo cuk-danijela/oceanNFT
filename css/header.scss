@@ -1,3 +1,9 @@
+
+body {
+  background: #20083B 75%;
+  padding: 42.01px 103px;
+}
+
 .header {
   &__nav {
     display: flex;
@@ -6,6 +12,7 @@
   }
 
   &__nav__logo {
+
     display: flex;
     font-family: $font-Orbitron;
     font-size: 20px;
@@ -16,10 +23,11 @@
     color: #ffffff;
   }
 
-     &__nav__logo img {
-      width: 16.58px;
-      height: 26.81px;
-     }
+  &__nav__logo svg {
+    width: 16.58px;
+    height: 26.81px;
+    box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px rgba(255, 86, 246, 0.51);
+  }
 
   &__nav__logo-text {
     color: #ffffff99;
@@ -71,7 +79,7 @@
       width: 848px;
       height: 156px;
 
-      
+
     }
 
     &__title-span {
@@ -117,6 +125,7 @@
       list-style: none;
       display: flex;
       padding: 0;
+      margin: 50px 0;
     }
 
     &__list li {
@@ -157,7 +166,7 @@
 .logo-section {
   display: flex;
   justify-content: space-between;
-padding: 100px 0;
+  padding: 100px 0;
 
   img:first-child {
     width: 265.31px;

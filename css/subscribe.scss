@@ -1,7 +1,7 @@
 .subscribe {
   display: flex;
   align-items: center;
-padding: 100px 0;
+  padding: 100px 0;
 
   &__image {
     flex: 1;
@@ -51,6 +51,7 @@ padding: 100px 0;
     &__form__btn {
       width: 143.71px;
       height: 48.64px;
+
       border: {
         radius: 0 5.53px 5.53px 0;
         image-source: linear-gradient(272.52deg,
