@@ -1,0 +1,132 @@
+@media (max-width: 768px) {
+
+    body {
+        padding: 26px;
+        margin: 0;
+    }
+
+    .header {
+
+        &__nav__list,
+        &__nav__icons {
+            display: none;
+        }
+
+        &__nav__menu {
+            display: block;
+        }
+
+        &__main__content {
+            flex-wrap: wrap;
+        }
+
+        &__main__content__left-div__title {
+            font-size: 42px;
+            line-height: 58px;
+            width: 100%;
+        }
+
+        &__main__content__left-div__text {
+            font-size: 14px;
+            line-height: 23px;
+            width: 100%;
+        }
+
+        &__main__content__left-div__btn {
+            width: 133.31px;
+            height: 34.21px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__main__content__left-div__paragraph {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__main__content__left-div__list-span {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        &__main__content__left-div__list li {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        &__main__content__right-div img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    .logo-section {
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .collections {
+
+        &__div__title,
+        &__div__view {
+            font-size: 18px;
+            line-height: 23px;
+        }
+
+        &__card-div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__card,
+        &__card-background {
+            width: 100%;
+        }
+    }
+
+    .subscribe {
+        flex-wrap: wrap;
+
+        &__image {
+            width: 100%;
+            height: auto;
+            order: 2;
+            margin-top: 30px;
+        }
+
+        &__content {
+            width: 100%;
+            padding-left: 0;
+        }
+
+        &__content__title {
+            font-size: 26px;
+            line-height: 33px;
+        }
+
+        &__content__text {
+            font-size: 13px;
+            line-height: 23px;
+        }
+
+        &__content__form__input {
+            width: 180.97px;
+            height: 35.03px;
+            font-size: 10px;
+            line-height: 18px;
+        }
+
+        &__content__form__btn {
+            width: 94.86px;
+            height: 32.11px;
+            font-size: 10.22px;
+        }
+    }
+
+
+}

@@ -1,7 +1,12 @@
 @import "partials/buttons";
 @import "partials/font";
+@import "partials/colors";
 
+
+@import 'main';
 @import 'header';
 @import 'collections';
 @import 'subscribe';
 @import 'footer';
+
+@import 'media-queries';

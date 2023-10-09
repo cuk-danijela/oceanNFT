@@ -29,7 +29,7 @@
         line-height: 25px;
         letter-spacing: 0;
         text-align: left;
-        color: #FFFFFF;
+        color: $white;
 
     }
 
@@ -40,7 +40,7 @@
         line-height: 31px;
         letter-spacing: 0;
         text-align: left;
-        color: #FFFFFF;
+        color: $white;
         margin: 0;
     }
 
@@ -54,7 +54,7 @@
     &__list {
         list-style: none;
         padding: 0;
-        color: #D9DBE1;
+        color: $light-grey;
         font-family: $font-Inter;
         font-size: 15px;
         font-weight: 400;
@@ -75,7 +75,7 @@
         line-height: 27px;
         letter-spacing: 0;
         text-align: left;
-        color: #2EC5CE;
+        color: $blue;
         margin-left: 5px;
     }
 }
@@ -86,12 +86,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #D9DBE1;
+    color: $light-grey;
+
     font: {
-family: $font-Inter;
-    size: 15px;
-    weight: 400;
+        family: $font-Inter;
+        size: 15px;
+        weight: 400;
     }
+
     line-height: 27px;
     letter-spacing: 0;
     text-align: left;
@@ -110,7 +112,7 @@ family: $font-Inter;
     &__link {
         padding: 0 10px;
         border-right: 1px solid #D9DBE1;
-        color: #D9DBE1;
+        color: $light-grey;
         text-decoration: none;
 
     }

@@ -4,26 +4,9 @@
         display: flex;
         align-items: center;
 
-        &__title {
-            font-family: $font-Orbitron;
-            font-size: 26px;
-            font-weight: 700;
-            line-height: 33px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #ffffff;
-            flex: 1;
-        }
-
+        &__title,
         &__view {
-            font-family: $font-Orbitron;
-            font-size: 26px;
-            font-weight: 700;
-            line-height: 33px;
-            letter-spacing: 0em;
-            text-align: left;
-            color: #ffffff;
-
+            @include font-style-2;
         }
 
     }
@@ -34,15 +17,18 @@
     }
 
     &__card {
-        color: #FFFFFF;
+        color: $white;
         width: 433.76px;
         height: 560.89px;
-        border-width: 2.88px;
-        border-style: solid;
-        border-image-source: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%);
-        border-image-slice: 1;
-        border-image-width: 2.88px;
-        border-image-outset: 0;
+
+        border: {
+            width: 2.88px;
+            style: solid;
+            image-source: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%);
+            image-slice: 1;
+            image-width: 2.88px;
+            image-outset: 0;
+        }
     }
 
     &__card-background {
@@ -50,13 +36,15 @@
         height: 205.62px;
         position: relative;
         background: url('../assets/images/unsplash_NTYYL9Eb9y8.png');
-        background-repeat: no-repeat;
-        background-position: center;
+        background: {
+            repeat: no-repeat;
+            position: center;
+        }
+
     }
 
     &__card-content {
-        padding-top: 43px;
-        padding-bottom: 28px;
+        padding: 43px 0 28px 0;
         text-align: center;
         background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%),
             linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
@@ -72,7 +60,7 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 46px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         text-align: center;
         margin-bottom: 0;
     }
@@ -82,9 +70,9 @@
         font-size: 20px;
         font-weight: 400;
         line-height: 46px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         text-align: left;
-        color: #FFB1EE;
+        color: $pink;
         display: inline;
     }
 
@@ -93,7 +81,7 @@
         display: flex;
         justify-content: space-around;
         padding: 0;
-            margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     &__card-content__list__span {
@@ -101,7 +89,7 @@
         font-size: 30px;
         font-weight: 600;
         line-height: 38px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         text-align: center;
         display: block;
     }
@@ -111,7 +99,7 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 25px;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         text-align: center;
     }
 

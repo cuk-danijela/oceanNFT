@@ -1,8 +1,4 @@
 
-body {
-  background: #20083B 75%;
-  padding: 42.01px 103px;
-}
 
 .header {
   &__nav {
@@ -20,7 +16,7 @@ body {
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    color: #ffffff;
+    color: $white;
   }
 
   &__nav__logo svg {
@@ -30,7 +26,11 @@ body {
   }
 
   &__nav__logo-text {
-    color: #ffffff99;
+    color: $grey;
+  }
+
+  &__nav__menu {
+    display: none;
   }
 
   &__nav__list {
@@ -48,7 +48,7 @@ body {
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    color: #ffffff99;
+    color: $grey;
     padding: 11.05px;
   }
 
@@ -75,7 +75,7 @@ body {
       line-height: 91px;
       letter-spacing: 0em;
       text-align: left;
-      color: #ffffff;
+      color: $white;
       width: 848px;
       height: 156px;
 
@@ -97,7 +97,7 @@ body {
       line-height: 44px;
       letter-spacing: 0em;
       text-align: left;
-      color: #ffffff;
+      color: $white;
       width: 657.75px;
     }
 
@@ -135,7 +135,7 @@ body {
       line-height: 22px;
       letter-spacing: 0.2210918515920639px;
       text-align: left;
-      color: #FFFFFF;
+      color: $white;
       padding: 0 30px;
       border-right: 1.11px solid #FFFFFF42;
     }
@@ -156,7 +156,7 @@ body {
       line-height: 53px;
       letter-spacing: 0.2210918515920639px;
       text-align: left;
-      color: #FFFFFF;
+      color: $white;
     }
   }
 

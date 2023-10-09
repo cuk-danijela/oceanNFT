@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #20083B 75%;
   padding: 42.01px 103px;
@@ -16,7 +20,7 @@ body {
   line-height: 25px;
   letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .header__nav__logo svg {
   width: 16.58px;
@@ -25,6 +29,9 @@ body {
 }
 .header__nav__logo-text {
   color: rgba(255, 255, 255, 0.6);
+}
+.header__nav__menu {
+  display: none;
 }
 .header__nav__list {
   display: flex;
@@ -62,7 +69,7 @@ body {
   line-height: 91px;
   letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
   width: 848px;
   height: 156px;
 }
@@ -79,7 +86,7 @@ body {
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
   width: 657.75px;
 }
 .header__main__content__left-div__btn {
@@ -93,7 +100,7 @@ body {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   border: 2.41px solid transparent;
   border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   border-image-slice: 1;
@@ -177,24 +184,14 @@ body {
   display: flex;
   align-items: center;
 }
-.collections__div__title {
+.collections__div__title, .collections__div__view {
   font-family: Orbitron, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 33px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
-  flex: 1;
-}
-.collections__div__view {
-  font-family: Orbitron, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 33px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .collections__card-div {
   display: flex;
@@ -220,8 +217,7 @@ body {
   background-position: center;
 }
 .collections__card-content {
-  padding-top: 43px;
-  padding-bottom: 28px;
+  padding: 43px 0 28px 0;
   text-align: center;
   background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%), linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
 }
@@ -234,7 +230,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   line-height: 46px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: center;
   margin-bottom: 0;
 }
@@ -243,7 +239,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 46px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   color: #FFB1EE;
   display: inline;
@@ -260,7 +256,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   line-height: 38px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: center;
   display: block;
 }
@@ -269,7 +265,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 25px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: center;
 }
 .collections__card-content__btn {
@@ -283,7 +279,7 @@ body {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   border: 2.41px solid transparent;
   border-image-source: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   border-image-slice: 1;
@@ -315,7 +311,7 @@ body {
   line-height: 50px;
   letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .subscribe__content__text {
   font-family: Inter, sans-serif;
@@ -324,7 +320,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
   word-wrap: break-word;
 }
 .subscribe__content__form__input {
@@ -354,7 +350,7 @@ body {
   line-height: 19px;
   letter-spacing: 0;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%), linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
   background-origin: border-box;
   box-shadow: 0px 5px 117px 0px rgba(255, 86, 246, 0.5098039216);
@@ -462,6 +458,105 @@ body {
 }
 .copyright__list li:last-child a {
   border-right: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 26px;
+    margin: 0;
+  }
+  .header__nav__list, .header__nav__icons {
+    display: none;
+  }
+  .header__nav__menu {
+    display: block;
+  }
+  .header__main__content {
+    flex-wrap: wrap;
+  }
+  .header__main__content__left-div__title {
+    font-size: 42px;
+    line-height: 58px;
+    width: 100%;
+  }
+  .header__main__content__left-div__text {
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+  }
+  .header__main__content__left-div__btn {
+    width: 133.31px;
+    height: 34.21px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .header__main__content__left-div__paragraph {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .header__main__content__left-div__list-span {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .header__main__content__left-div__list li {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .header__main__content__right-div img {
+    width: 100%;
+    height: auto;
+  }
+  .logo-section {
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .collections__div__title, .collections__div__view {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .collections__card-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .collections__card, .collections__card-background {
+    width: 100%;
+  }
+  .subscribe {
+    flex-wrap: wrap;
+  }
+  .subscribe__image {
+    width: 100%;
+    height: auto;
+    order: 2;
+    margin-top: 30px;
+  }
+  .subscribe__content {
+    width: 100%;
+    padding-left: 0;
+  }
+  .subscribe__content__title {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  .subscribe__content__text {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .subscribe__content__form__input {
+    width: 180.97px;
+    height: 35.03px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .subscribe__content__form__btn {
+    width: 94.86px;
+    height: 32.11px;
+    font-size: 10.22px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
