@@ -12,18 +12,19 @@ $font-Roboto: Roboto, sans-serif;
         size: 40px;
         weight: 700;
     }
+
     line-height: 50px;
     letter-spacing: 0;
     text-align: left;
     color: $white;
 }
 
-@mixin font-style-2{
+@mixin font-style-2 {
     font-family: $font-Orbitron;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 33px;
-        letter-spacing: 0;
-        text-align: left;
-        color: $white;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: left;
+    color: $white;
 }

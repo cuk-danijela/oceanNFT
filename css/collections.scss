@@ -3,10 +3,12 @@
     &__div {
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
         &__title,
         &__view {
             @include font-style-2;
+            display: inline-flex;
         }
 
     }

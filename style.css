@@ -18,7 +18,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
 }
@@ -45,7 +45,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
   padding: 11.05px;
@@ -67,7 +67,7 @@ body {
   font-size: 66px;
   font-weight: 600;
   line-height: 91px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
   width: 848px;
@@ -84,7 +84,7 @@ body {
   font-size: 26px;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
   width: 657.75px;
@@ -98,7 +98,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #FFFFFF;
   border: 2.41px solid transparent;
@@ -115,7 +115,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
   background-clip: text;
@@ -183,6 +183,7 @@ body {
 .collections__div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .collections__div__title, .collections__div__view {
   font-family: Orbitron, sans-serif;
@@ -192,6 +193,7 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #FFFFFF;
+  display: inline-flex;
 }
 .collections__card-div {
   display: flex;
@@ -277,7 +279,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #FFFFFF;
   border: 2.41px solid transparent;
@@ -460,7 +462,7 @@ body {
   border-right: 0;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 425px) {
   body {
     padding: 26px;
     margin: 0;
